@@ -1,5 +1,63 @@
-header{
-    color: bisque;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    min-width: 320px;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    line-height: 1.6;
+    color: black;
+    background-color: white;
+  }
 
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
 
+  header {
+    background-color:antiquewhite;
+  }
+
+  .header-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    color:magenta;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  ul li {
+    display: inline-block;
+  }
+
+  a {
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+
+  a:hover {
+    color: white;
+  }
+ a {
+   color: indigo;
 }
+
+button {
+    color:magenta
+}
+
+container nav-container {
+    width: 100%;
+    border: 2px solid black
+}
+
