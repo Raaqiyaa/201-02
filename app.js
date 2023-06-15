@@ -31,20 +31,19 @@ if (capitalCity === "yes" || capitalCity === "y") {
 }
 
 question1()
-
-
 alert("Onto the next question")
 
+
 function question2() {
-	let penguins = prompt("Are penguins capable of flying?")}
+	let penguins = prompt("Are penguins capable of flying? Please answer yes/no")
 
 while (penguins != "yes" && penguins != "no") {
     alert("Please answer yes/no");
-    penguins = prompt("Are penguins capable of flying?")
+    penguins = prompt("Are penguins capable of flying? Please answer yes/no")
     } 
 
-    if (penguins === "yes") {
-	score+++
+    if (penguins === "yes"){
+	score++
     console.log("Correct, Canberra is the capital of Australia");
     alert("Correct, Canberra is the capital of Australia ");
     
@@ -53,10 +52,11 @@ while (penguins != "yes" && penguins != "no") {
     }
 }
 
+}
+
 question2()
-
-
 alert("Onto the next question")
+
 
 function question3(){
 	let mountEverest = prompt("Is Mount Everest hard to climb? Please answer yes/no").toLowerCase();
@@ -67,7 +67,7 @@ while (mountEverest != "yes" && mountEverest != "no" && mountEverest != "y" && m
     } 
 	
 	if (mountEverest === "yes"){
-	score++++
+	score++
     console.log("Correct, Yes Mount Everest hard to climb")
     alert("Correct,Yes Mount Everest hard to climb ");
     } 
@@ -80,12 +80,11 @@ while (mountEverest != "yes" && mountEverest != "no" && mountEverest != "y" && m
 }
 
 question3()
-
 alert("Onto the next question")
 
-function question4(){
 
-let summer = prompt("Is it Summer yet? Please answer yes/no").toLowerCase();
+function question4(){
+    let summer = prompt("Is it Summer yet? Please answer yes/no").toLowerCase();
 
 while (summer != "yes" && summer != "no") {
     alert("Please answer yes/no");
@@ -93,7 +92,7 @@ while (summer != "yes" && summer != "no") {
     } 
 	
 	if (summer === "yes") {
-	score+++++
+	score++
     onsole.log("Correct, Yes it is summer")
     alert("Correct,Yes it is summer ");
     } 
@@ -105,13 +104,11 @@ while (summer != "yes" && summer != "no") {
 }
 
 question4()
-
-
 alert("Onto the next question")
 
-function question5(){
 
-let mountEverest = prompt("Is Mount Everest hard to climb? Please answer yes/no or y/n only").toLowerCase();
+function question5(){
+    let mountEverest = prompt("Is Mount Everest hard to climb? Please answer yes/no or y/n only").toLowerCase();
 
 while (mountEverest != "yes" && mountEverest != "no" && mountEverest) {
     alert("Please answer yes/no");
@@ -119,7 +116,7 @@ while (mountEverest != "yes" && mountEverest != "no" && mountEverest) {
     } 
 	
 	if (mountEverest === "yes") {
-	score++++++ 
+	score++
     console.log("Correct, Yes Mount Everest hard to climb")
     alert("Correct,Yes Mount Everest hard to climb ");
 	}
@@ -131,9 +128,8 @@ while (mountEverest != "yes" && mountEverest != "no" && mountEverest) {
 }
 
 question5()
-
-
 alert("Onto the next question")
+
 
 function question6(){
     let theBeatles = prompt("Was The Beatles a famous rock band from Manchester? Please answer yes/no").toLowerCase();
@@ -144,7 +140,7 @@ function question6(){
     }
     
 	if (theBeatles === "no") {
-	score++++++
+	score++
     console.log("Correct, yes, The Beatles is a famous rock band from Liverpool?")
     alert("Correct,Yes Was The Beatles is a famous rock band from Liverpool? ");
     }
@@ -155,3 +151,4 @@ function question6(){
 	}
 
 }
+

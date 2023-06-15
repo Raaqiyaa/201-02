@@ -2,8 +2,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-  }
-  body {
+}
+    
+    body {
     min-width: 320px;
     font-size: 1rem;
     font-weight: 400;
@@ -11,50 +12,53 @@
     line-height: 1.6;
     color: black;
     background-color: white;
-  }
+}
 
-  .container {
+    .container {
     width: 90%;
     margin: 0 auto;
-  }
+}
 
-  header {
+    header {
     background-color:antiquewhite;
-  }
+}
 
-  .header-container {
+    .header-container {
     text-align: center;
     display: flex;
     flex-direction: column;
-  }
+}
 
-  h1 {
+    h1 {
     color:magenta;
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-  }
+}
 
-  ul li {
+    ul li {
     display: inline-block;
-  }
+}
 
-  a {
+    a {
     text-decoration: none;
     margin: 0 1rem;
-  }
+    }
 
-  a:hover {
+    a:hover {
     color: white;
-  }
- a {
-   color: indigo;
+    }
+    
+    a {
+    color: indigo;
 }
 
 button {
-    color:magenta
+    width: 90%;
+    margin: 1rem;
+    color: magenta;
 }
 
 container nav-container {
