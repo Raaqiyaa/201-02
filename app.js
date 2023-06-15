@@ -44,8 +44,8 @@ while (penguins != "yes" && penguins != "no") {
 
     if (penguins === "yes"){
 	score++
-    console.log("Correct, Canberra is the capital of Australia");
-    alert("Correct, Canberra is the capital of Australia ");
+    console.log("Correct, Penguins are not capable of flying? ");
+    alert("Correct, Penguins are not capable of flying? ");
     
     } else if (penguins === "no") {console.log("That is not correct"); {
     alert("That is not correct");
@@ -151,4 +151,3 @@ function question6(){
 	}
 
 }
-

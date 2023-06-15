@@ -55,11 +55,15 @@
     color: indigo;
 }
 
-button {
-    width: 90%;
-    margin: 1rem;
-    color: magenta;
-}
+.quiz-button {
+    padding: 10px 20px;
+    font-size: 10px;
+    background-color: pink;
+    color: purple;
+    border: none;
+    cursor: pointer;
+    
+  }
 
 container nav-container {
     width: 100%;
